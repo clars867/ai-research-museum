@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 import PromptForm from '../components/PromptForm';
 import { useState } from 'react';
 
@@ -23,6 +24,7 @@ export default function Home() {
   return (
     <Layout>
       <HeroSection />
+      <AboutSection />
       <PromptForm />
 
       <section id="chat" className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
