@@ -11,13 +11,13 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="#chat"
-              className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition duration-150"
+              className="px-6 py-3 bg-gradient-to-r from-gold to-mystic text-navy font-semibold rounded-md shadow-lg hover:opacity-90 transition duration-150"
             >
               Begin Your Journey
             </a>
             <a
               href="#submit"
-              className="px-6 py-3 border border-black text-black rounded-md hover:bg-gray-100 transition duration-150"
+              className="px-6 py-3 border border-mystic text-mystic rounded-md hover:bg-mystic/10 transition duration-150"
             >
               Submit a Prompt
             </a>

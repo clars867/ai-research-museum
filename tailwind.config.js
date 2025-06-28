@@ -8,6 +8,7 @@ module.exports = {
         navy: '#1b1f30',
         gold: '#ffd700',
         graphite: '#3a3a3a',
+        mystic: '#352e65'
       },
       fontFamily: {
         sans: ['"Inter"', 'sans-serif'],

@@ -11,6 +11,13 @@ body {
     background: radial-gradient(ellipse at center, #fff8dc 0%, #e8d5b0 40%, #1b1f30 100%);
   }
 
+  .bg-stars {
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
+      radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px);
+    background-size: 4px 4px, 8px 8px;
+    background-position: 0 0, 2px 2px;
+  }
+
   @keyframes pulseSlow {
     0%, 100% {
       opacity: 0.3;
@@ -22,5 +29,18 @@ body {
 
   .animate-pulseSlow {
     animation: pulseSlow 15s ease-in-out infinite;
+  }
+
+  @keyframes drift {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-60px, 40px);
+    }
+  }
+
+  .animate-drift {
+    animation: drift 60s linear infinite;
   }
 }
