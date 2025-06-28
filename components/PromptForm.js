@@ -17,7 +17,7 @@ export default function PromptForm() {
   return (
     <section id="submit" className="bg-white text-graphite py-24 px-6 border-t border-gray-200">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Submit a Journey Prompt</h2>
+        <h2 className="text-4xl font-bold font-serif mb-4">Submit a Journey Prompt</h2>
         <p className="text-lg text-gray-600 mb-8">
           Share an idea or prompt you'd like to see explored. We'll credit you if it's featured in our public research logs.
         </p>

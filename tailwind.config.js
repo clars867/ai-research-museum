@@ -10,7 +10,8 @@ module.exports = {
         graphite: '#3a3a3a',
       },
       fontFamily: {
-        sans: ['"Inter"', 'sans-serif']
+        sans: ['"Inter"', 'sans-serif'],
+        serif: ['"Playfair Display"', 'serif']
       }
     }
   },

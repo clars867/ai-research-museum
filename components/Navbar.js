@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="backdrop-blur-md bg-white/80 border-b border-gray-200 shadow-sm">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
         <Link href="/">
-          <span className="text-xl font-semibold tracking-wide uppercase text-gray-800 cursor-pointer">
+          <span className="text-xl font-semibold font-serif tracking-wide uppercase text-gray-800 cursor-pointer">
             A Simple Company
           </span>
         </Link>
@@ -59,7 +59,6 @@ export default function Navbar() {
               <div className="absolute top-full left-0 mt-2 bg-white rounded shadow p-4 w-56 text-sm z-50">
                 <Link href="#submit"><div className="hover:text-gold pb-2 cursor-pointer">Contribute a Prompt</div></Link>
                 <Link href="/experiments"><div className="hover:text-gold pb-2 cursor-pointer">Join an Experiment</div></Link>
-                <Link href="/suggest"><div className="hover:text-gold pb-2 cursor-pointer">Suggest a Topic</div></Link>
                 <Link href="/donate"><div className="hover:text-gold cursor-pointer">Donate</div></Link>
               </div>
             )}

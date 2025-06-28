@@ -2,7 +2,7 @@ export default function HeroSection() {
     return (
       <section className="text-center py-28 px-4 bg-parchment text-graphite">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-5xl sm:text-6xl font-bold leading-tight mb-6 tracking-tight">
+        <h2 className="text-5xl sm:text-6xl font-bold font-serif leading-tight mb-6 tracking-tight">
             Welcome to the AI Research Museum
           </h2>
           <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
