@@ -28,7 +28,7 @@ export default function Home() {
       <PromptForm />
 
       <section id="chat" className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
-        <h1 className="text-3xl font-bold mb-6">AI Research Museum Chat</h1>
+        <h1 className="text-3xl font-bold font-serif mb-6">AI Research Museum Chat</h1>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}

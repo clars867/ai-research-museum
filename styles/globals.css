@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply font-sans text-graphite;
+}
+
 @layer utilities {
   .bg-gradient-radial {
     background: radial-gradient(ellipse at center, #fff8dc 0%, #e8d5b0 40%, #1b1f30 100%);
