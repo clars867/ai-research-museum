@@ -3,24 +3,34 @@
 @tailwind utilities;
 
 body {
-  @apply font-sans text-graphite;
+  @apply font-sans text-[#f0eada] bg-[#121212];
 }
 
 @layer utilities {
   .bg-gradient-radial {
-    background: radial-gradient(ellipse at center, #fff8dc 0%, #e8d5b0 40%, #1b1f30 100%);
+    background: radial-gradient(ellipse at center, #2b2b2b 0%, #1a1a1a 40%, #000000 100%);
   }
 
   @keyframes pulseSlow {
     0%, 100% {
-      opacity: 0.3;
+      opacity: 0.2;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.35;
     }
   }
 
   .animate-pulseSlow {
-    animation: pulseSlow 15s ease-in-out infinite;
+    animation: pulseSlow 20s ease-in-out infinite;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-2 bg-black text-white rounded-md shadow hover:bg-gray-900 transition;
+  }
+
+  .btn-glow {
+    @apply px-6 py-2 border border-yellow-400 text-yellow-400 bg-transparent rounded-md hover:shadow-md hover:border-yellow-300 transition;
   }
 }
