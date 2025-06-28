@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-gradient-radial {
+    background: radial-gradient(ellipse at center, #fff8dc 0%, #e8d5b0 40%, #1b1f30 100%);
+  }
+
+  @keyframes pulseSlow {
+    0%, 100% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  .animate-pulseSlow {
+    animation: pulseSlow 15s ease-in-out infinite;
+  }
+}
